@@ -1,0 +1,151 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.carousel-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 190px; /* Adjust this margin to fine-tune the vertical position */
+}
+
+.carousel-button-container button {
+  background-color: transparent !important; /* Add !important to override Bootstrap styles */
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-button-container button:hover {
+  opacity: 1;
+}
+.carousel-control-prev, .carousel-control-next{
+  margin-top: 190px;
+  width: 40px;
+  height: 40px;
+  background-color: black; 
+  color: #fff;
+}
+
+
+
+
+.section {
+  width: 100%;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.section p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* .mission-section {
+  position: relative;
+}
+
+.mission-banner {
+  position: relative;
+  height: 100%;
+  background-position: center;
+  /* background-size: 65%; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+} */
+
+
+
+/* Add more classes and adjust the background-size for each banner as needed */
+
+
+h2 {
+  font-size: 30px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.banner-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.prev-banner {
+  padding-right: 900px;
+}
+
+.next-banner {
+  padding-left: 100px;
+} */
+/* Add this CSS code to your styles file */
+.vision-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.vision-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+}
+
+.image-container {
+  margin-top: -55px;
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  text-align: bottom;
+  flex: 1;
+  padding: 20px;
+}
+
+.text-container h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.text-container p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}

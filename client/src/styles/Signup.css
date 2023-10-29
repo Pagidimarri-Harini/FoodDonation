@@ -1,0 +1,173 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  padding: 20px;
+  background-color: rgba(10, 10, 20, 0.9);
+  border: 2px solid #9c51b6;
+  border-radius: 15px;
+  margin: 20px auto;
+  max-width: 400px; /* Adjust max-width as needed */
+}
+  .initial-signup{
+    min-height: 74vh;
+    margin-top: 20px;
+
+  }
+  .user-type-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-card {
+    width: 30%; /* Adjust the width as needed to create space between cards */
+    padding: 20px;
+    border: 2px solid #9c51b6;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(10, 10, 20, 0.9);
+    color: #f9f9f9;
+    font-weight: 200;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .left-card {
+    height: 360px;
+    font-weight: 20;
+    /* Styles for the left card */
+  }
+  
+  .right-card {
+    height: 360px;
+    font-weight: 20;
+    /* Styles for the right card */
+  }
+  
+  .user-card button {
+    display: block;
+    margin: 0 auto;
+    background-color: #9c51b6;
+    border: none;
+    border-radius: 12px;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    margin-top: 15px;
+  }
+  
+  .user-card button:hover {
+    background-color: #e082ff;
+  }
+  
+  
+  .signup-container h2 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #f9f9f9;
+    font-weight: 700;
+  }
+  
+.form-group {
+    margin-bottom: 25px;
+    max-height: 50px;
+    max-width: 800px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #f5f5f5;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="tel"],
+  .form-group select,
+  .form-group select{
+    width: 100%;
+    padding: 6px 10px;
+    border: 2px solid #9c51b6;
+    background: transparent;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #f5f5f5;
+    transition: all 0.3s ease;
+  }
+  .form-group select option {
+    color: black; /* Change the text color of the options to black */
+  }
+  
+  .form-group input:focus {
+    border-color: #e082ff;
+    outline: none;
+    box-shadow: 0 0 10px #e082ff;
+  }
+  
+  .form-group label input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    width: 80%;
+    padding: 10px 0;
+    background-color: #9c51b6;
+    border: none;
+    border-radius: 12px;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e082ff;
+  }
+
+.form-group.country-phone select {
+
+  width: 100px; /* Adjust the width as needed */
+}
+.form-group.country-phone {
+  margin-top: 10px;
+  display: flex;
+}
+label{
+  color: white;
+} 
+.form-group.country-phone input[type="tel"] {
+  width: 130px; /* Adjust the width as needed for the phone number input */
+  margin-left: 30px; /* Add some space between the select and input */
+} 
+.form-group.postalcode{
+  display: flex;
+}
+.form-group.postalcode input[type="text"]{
+  width: 110px;
+  
+}
+.form-group.postalcode input[name="address.state"] {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+.form-group.postalcode input[name="address.postalCode"] {
+  margin-left: 30px; /* Adjust the value as needed */
+}
+.error-message {
+  color: rgba(255, 0, 0, 0.7);
+  /* Add any other desired styles */
+}
+
+
+
